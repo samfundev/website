@@ -34,13 +34,13 @@
 			{/each}
 		</h1>
 
-		<nav class="flex text-lg">
+		<nav class="flex w-full max-w-80 flex-wrap justify-between gap-1 text-lg">
 			{#each Object.entries(pages) as [value, href], i (i)}
-				<a class="relative m-0.5 px-5 py-1" {href}>
+				<a class="relative px-1 py-1" {href}>
 					{value}
 					{#if href === '/' ? page.url.pathname === href : page.url.pathname.startsWith(href)}
 						<div
-							class="absolute top-0 right-2 bottom-0 left-2 rounded-2xl outline"
+							class="absolute top-0 -right-1 bottom-0 -left-1 rounded-2xl outline"
 							in:receive={{ key: 'active' }}
 							out:send={{ key: 'active' }}
 						></div>
