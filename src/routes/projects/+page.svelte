@@ -7,11 +7,11 @@
 			href: 'https://samfundev.github.io/TextFieldCalculator/Calculator-v2.html',
 			image: 'text-field-calculator.png',
 			description:
-				'A calculator that allows you to play with math by evaluating each line whenever you change it. Powered by Math.js and Monaco Editor.',
+				'A calculator that allows you to play with math by evaluating each line whenever you make changes. Powered by Math.js and Monaco Editor.',
 			category: 'Web'
 		},
 		{
-			title: 'Tetris-Attack',
+			title: 'Tetris Attack',
 			href: 'https://files.samfun.dev/tetrisattack/',
 			image: 'tetris-attack.png',
 			description:
@@ -24,7 +24,7 @@
 			image:
 				'https://images.steamusercontent.com/ugc/2444768537696491535/8B64931A5F6C99991A0F12714F1A484BDDFA9482/',
 			description:
-				"An extensive mod for Keep Talking and Nobody Explodes that adds a bunch of quality of life improvements to the game. It gained an essential feature that's allows a huge amount of mods to be installed while only loading the necessary ones.",
+				'An extensive mod for Keep Talking and Nobody Explodes that adds a bunch of quality of life improvements to the game. Already important, it became essential for playing the game after I added a feature to load mods into memory only when they are needed.',
 			category: 'C#'
 		},
 		{
@@ -87,7 +87,7 @@
 			image:
 				'https://images.steamusercontent.com/ugc/868480740217612025/9E2944E29F14D25927DC9CD3F3C86AE12C6F6D1F/',
 			description:
-				"A module for Keep Talking and Nobody Explodes where you get to play the classic game of minesweeper! But you'll need to figure out where you can begin digging.",
+				"A module for Keep Talking and Nobody Explodes where you get to play the classic game of minesweeper! But you'll need to figure out where you can begin digging. Guarantees puzzle has a unique solution that requires no guesses on puzzle generation.",
 			category: 'C#'
 		},
 		{
@@ -122,7 +122,7 @@
 			href: 'https://samfundev.github.io/TGB-Schedule/',
 			image: 'tgb-schedule.png',
 			description:
-				'A schedule made for The Great Berate to allow you easily see when their next stream is in your local time zone. It also has a countdown to the next stream and upcoming streams.',
+				'A schedule made for The Great Berate to allow you easily see when their next stream is in your local time zone. It also has a countdown to the next stream and upcoming streams. Allows TGB to easily manage their schedule from a Google Sheet.',
 			category: 'Web'
 		},
 		{
@@ -130,7 +130,7 @@
 			href: 'https://ktane.timwi.de/More/Logfile%20Analyzer.html',
 			image: 'logfile-analyzer.png',
 			description:
-				'A tool for analyzing logfiles from Keep Talking and Nobody Explodes. It breaks down everything that happened during a bomb and how each module can be solved.',
+				'A tool for analyzing logfiles from Keep Talking and Nobody Explodes. It breaks down everything that happened during a play session and how each module can be solved.',
 			category: 'Web'
 		},
 		{
@@ -154,7 +154,7 @@
 			image:
 				'https://github.com/twireapp/Twire/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1_my_streams.png?raw=true',
 			description:
-				'An open source, ad-free Twitch browser and stream player for Android. It has a built in adblock, support for VODs with chat replay, custom emotes, picture in picture mode, and a highly customizable UI. ',
+				'An open source, ad-free Twitch browser and stream player for Android. It has support for VODs with chat replay, custom emotes, picture in picture mode, and a highly customizable UI. Became the maintainer after the author stepped back.',
 			category: 'Java'
 		}
 	];
@@ -168,7 +168,7 @@
 
 <p>I've worked on quite a few projects over the years. Here are some of them:</p>
 
-{#each ['Web', 'C#', 'Java'] as category}
+{#each ['Web', 'Java', 'C#'] as category}
 	<h2>{category}</h2>
 	<div class="not-prose grid grid-cols-2 gap-2">
 		{#each projects.filter((project) => project.category === category) as project}

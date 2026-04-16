@@ -64,7 +64,7 @@
 				<img src={image} alt={title} class="aspect-square w-full object-cover" />
 			{/if}
 			<span
-				class="bg-opacity-75 absolute inset-0 flex items-center justify-center bg-gray-100 p-4 text-center text-black opacity-0 transition-opacity group-hover:opacity-100"
+				class="bg-opacity-75 absolute inset-0 flex items-center justify-center bg-gray-100/90 p-4 text-center text-black opacity-0 transition-opacity group-hover:opacity-100"
 			>
 				{description}
 			</span>
