@@ -15,7 +15,7 @@
 			href: 'https://files.samfun.dev/tetrisattack/',
 			image: 'tetris-attack.png',
 			description:
-				'A recreation of the classic puzzle game Tetris Attack built in WebGL. Pretty proud of how I built out all the graphics and animations using only rectangles.',
+				'A recreation of the classic puzzle game Tetris Attack built in WebGL. I created all of the graphics and animations using only rectangles as an interesting challenge.',
 			category: 'Web'
 		},
 		{
@@ -33,7 +33,7 @@
 			image:
 				'https://github.com/samfundev/KtaneTwitchPlays/blob/master/Assets/PreviewImage/PreviewImage.png?raw=true',
 			description:
-				'A mod for Keep Talking and Nobody Explodes that allows the game to be played on Twitch by using chat commands. Initally created by ashbash1987 and later maintained by me, it has grown to be a pretty popular way to play the game.',
+				'A mod for Keep Talking and Nobody Explodes that allows the game to be played on Twitch by using chat commands. I took over maintaining it and it has grown to be one of the most popular ways to play the game.',
 			category: 'C#'
 		},
 		{
