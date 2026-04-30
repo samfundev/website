@@ -128,4 +128,8 @@
 	/* main {
 		backdrop-filter: blur(2px) brightness(0.5);
 	} */
+
+	.prose {
+		max-width: 75ch;
+	}
 </style>

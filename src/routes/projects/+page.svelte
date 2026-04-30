@@ -15,7 +15,7 @@
 			href: 'https://files.samfun.dev/tetrisattack/',
 			image: 'tetris-attack.png',
 			description:
-				'A recreation of the classic puzzle game Tetris Attack built in WebGL. I created all of the graphics and animations using only rectangles as an interesting challenge.',
+				'A recreation of the classic puzzle game Tetris Attack built in WebGL. I created all of the graphics and animations using only rectangles as an interesting challenge. My professor said "THIS IS ONE OF THE BEST GAMES I HAVE SEEN IN THIS CLASS".',
 			category: 'Web'
 		},
 		{
@@ -170,7 +170,7 @@
 
 {#each ['Web', 'Java', 'C#'] as category}
 	<h2>{category}</h2>
-	<div class="not-prose grid grid-cols-2 gap-2">
+	<div class="not-prose grid grid-cols-1 gap-2">
 		{#each projects.filter((project) => project.category === category) as project}
 			<Card {...project} />
 		{/each}
